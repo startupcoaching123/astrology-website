@@ -2,26 +2,13 @@
 
 import type React from "react"
 import { GeistMono } from "geist/font/mono"
-import { Playfair_Display, Lato } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import { useSearchParams } from "next/navigation"
 import { Suspense } from "react"
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-  weight: ["400", "500", "600", "700", "900"],
-})
-
-const lato = Lato({
-  subsets: ["latin"],
-  variable: "--font-lato",
-  weight: ["300", "400", "700", "900"],
-})
+import { useSearchParams } from "next/navigation"
 
 function SearchParamsWrapper({ children }: { children: React.ReactNode }) {
   const searchParams = useSearchParams()
-  // you can read or pass down searchParams here if needed
+  // You can use searchParams if needed
   return <>{children}</>
 }
 
@@ -33,7 +20,7 @@ export default function ClientLayout({
   return (
     <html lang="en">
       <body
-        className={`font-sans ${lato.variable} ${playfair.variable} ${GeistMono.variable}`}
+        className={`font-sans var(--font-poppins) ${GeistMono.variable}`}
       >
         <Suspense fallback={<div>Loading...</div>}>
           <SearchParamsWrapper>{children}</SearchParamsWrapper>

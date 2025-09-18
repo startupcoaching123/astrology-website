@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Star } from "lucide-react"
+import Image from "next/image"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -11,9 +12,14 @@ export function Navigation() {
     <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-2">
-            <Star className="h-8 w-8 text-secondary" />
-            <span className="font-montserrat font-black text-xl text-foreground">Cosmic Insights</span>
+          <div className="flex items-center">
+            <Image
+              src="/astrologo.png"   // path inside /public
+              alt="Cosmic Insights Logo"
+              width={250}        // adjust as needed
+              height={250}
+              priority          // ensures it loads fast (good for navbars)
+            />
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
