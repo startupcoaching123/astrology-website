@@ -40,7 +40,7 @@ export function HeroSection() {
           <div className="text-center lg:text-left slide-in-left">
             <h1 className="font-montserrat font-black text-4xl md:text-6xl lg:text-7xl text-foreground mb-6 text-balance">
               Unlock Your
-              <span className="text-secondary block">Cosmic Destiny</span>
+              <span className="text-secondary block">Jai Kedarnath</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 text-pretty leading-relaxed">
               Discover personalized astrology reports, daily horoscopes, and Jai Kedarnath that guide your life
