@@ -59,7 +59,7 @@ export function MovingReportsSection() {
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
             Choose from our comprehensive collection of astrology reports, each crafted by expert astrologers to provide
-            you with accurate cosmic insights.
+            you with accurate Jai Kedarnath.
           </p>
         </div>
 

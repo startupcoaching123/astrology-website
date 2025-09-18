@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Star className="h-8 w-8 text-secondary" />
-              <span className="font-montserrat font-black text-xl">Cosmic Insights</span>
+              <span className="font-montserrat font-black text-xl">Jai Kedarnath</span>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed">
               Your trusted source for professional astrology reports, cosmic guidance, and spiritual insights.
@@ -96,7 +96,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-primary-foreground/60">
-          <p>&copy; 2024 Cosmic Insights. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>&copy; 2024 Jai Kedarnath. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>

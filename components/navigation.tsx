@@ -15,7 +15,7 @@ export function Navigation() {
           <div className="flex items-center">
             <Image
               src="/astrologo.png"   // path inside /public
-              alt="Cosmic Insights Logo"
+              alt="Jai Kedarnath Logo"
               width={250}        // adjust as needed
               height={250}
               priority          // ensures it loads fast (good for navbars)

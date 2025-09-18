@@ -60,7 +60,7 @@ export function CalculatorsSection() {
             Cosmic Calculators
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Use our interactive calculators to discover instant cosmic insights about love, compatibility, and your
+            Use our interactive calculators to discover instant Jai Kedarnath about love, compatibility, and your
             spiritual numbers.
           </p>
         </div>

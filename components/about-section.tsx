@@ -21,7 +21,7 @@ export function AboutSection() {
             <div className="relative aspect-video bg-gradient-to-br from-secondary/20 to-secondary/5 rounded-2xl overflow-hidden group cursor-pointer">
               <img
                 src="/mystical-astrologer-in-cosmic-setting-with-stars-a.jpg"
-                alt="About Cosmic Insights - Professional Astrology"
+                alt="About Jai Kedarnath - Professional Astrology"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors flex items-center justify-center">
@@ -39,11 +39,11 @@ export function AboutSection() {
           <div className="space-y-8">
             <div>
               <h2 className="font-montserrat font-black text-3xl md:text-5xl text-foreground mb-6 text-balance">
-                About Cosmic Insights
+                About Jai Kedarnath
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  For over 15 years, Cosmic Insights has been guiding individuals through life's journey using the
+                  For over 15 years, Jai Kedarnath has been guiding individuals through life's journey using the
                   ancient wisdom of astrology combined with modern analytical techniques.
                 </p>
                 <p>

@@ -4,7 +4,7 @@ import ClientLayout from "./ClientLayout"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Cosmic Insights - Professional Astrology Reports & Calculators",
+  title: "Jai Kedarnath - Professional Astrology Reports & Calculators",
   description:
     "Get personalized astrology reports, daily horoscopes, and use our love calculator. Professional cosmic guidance for your life journey.",
   generator: "v0.app",
