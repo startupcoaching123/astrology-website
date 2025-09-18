@@ -19,17 +19,25 @@ const lato = Lato({
   weight: ["300", "400", "700", "900"],
 })
 
+function SearchParamsWrapper({ children }: { children: React.ReactNode }) {
+  const searchParams = useSearchParams()
+  // you can read or pass down searchParams here if needed
+  return <>{children}</>
+}
+
 export default function ClientLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const searchParams = useSearchParams()
-
   return (
     <html lang="en">
-      <body className={`font-sans ${lato.variable} ${playfair.variable} ${GeistMono.variable}`}>
-        <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+      <body
+        className={`font-sans ${lato.variable} ${playfair.variable} ${GeistMono.variable}`}
+      >
+        <Suspense fallback={<div>Loading...</div>}>
+          <SearchParamsWrapper>{children}</SearchParamsWrapper>
+        </Suspense>
         <Analytics />
       </body>
     </html>
